@@ -347,34 +347,34 @@
   [hidden] {
     display: none;
   }
-  p {
+  body {
     margin-top: 100px;
     margin-bottom: 100px;
     margin-right: 150px;
     margin-left: 80px;
   } 
-  h1 {
+  h1.myheading {
     text-align: center;
   }
   div {
     text-align: justify;
   }   
-  p {
+  div {
     font-family: "Times New Roman", Times, serif;
   } 
   h1 {
     font-size: 60px;
+    color:darkblue;
   }
   
   h2 {
     font-size: 50px;
+    color:darkblue;
   }
   
-  p {
-    font-size: 20px;
-  } 
   body {
-    background-color: lightblue;
+    background-color: lightgrey;
+    font-size: 20px;
   } 
   div {
     padding-top: 50px;
@@ -392,11 +392,13 @@
     margin-left: auto;
     margin-right: auto;
     width: 40%;
+    border-style: solid;
+    border-width: 2px ;
+    border-color:  #0000ff;
   } 
   div {
     text-align: justify;
   } 
-  div{
-      word-wrap: break-word;
-  }
+
+
   
